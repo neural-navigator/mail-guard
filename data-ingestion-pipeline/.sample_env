@@ -1,0 +1,3 @@
+EMAIL_UNAME=youremail@email.com
+EMAIL_PWD=<auth_token>
+BLOB_CONN_STR=<blob_storage_connection_string>
