@@ -1,0 +1,22 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "authLevel": "Anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "name": "outputBlob",
+      "type": "blob",
+      "path": "emails",
+      "connection": "<blob connection string>",
+      "direction": "out"
+    }
+  ]
+}
